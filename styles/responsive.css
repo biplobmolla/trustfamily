@@ -73,7 +73,7 @@
         height: 100vh;
         position: fixed;
         right: -120%;
-        top: 80px;
+        top: 0;
         background-color: black;
         flex-direction: column;
         text-align: center;
