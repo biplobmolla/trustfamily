@@ -1,0 +1,225 @@
+@media (max-width: 760px) {
+
+    header .phone p,
+    header .email p {
+        font-size: 12px;
+    }
+
+    header .right .social_icons i {
+        font-size: 12px;
+        margin: 0 10%;
+    }
+
+    header .max_width {
+        width: 100%;
+        padding: auto 5%;
+    }
+}
+
+@media (max-width: 540px) {
+    .max_width .left {
+        flex-direction: column;
+    }
+
+    .max_width .left .phone i,
+    .max_width .left .phone p {
+        padding-bottom: 5px;
+    }
+
+    .max_width .left,
+    .max_width .right {
+        padding: 5px 0;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero h6 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1040px) {
+    nav ul {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        width: 100%;
+    }
+
+    header .right i {
+        padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .fa-bars,
+    .fa-times {
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav ul {
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        right: -120%;
+        top: 80px;
+        background-color: black;
+        flex-direction: column;
+        text-align: center;
+        z-index: 100;
+    }
+
+    nav ul li a:hover {
+        color: crimson;
+    }
+
+    .active.active {
+        color: crimson;
+    }
+
+    .hero h1 {
+        letter-spacing: 1px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+    }
+
+
+
+
+    .about .row {
+        flex-direction: column;
+    }
+
+    .btt {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero h6 {
+        font-size: 14px;
+    }
+
+    .contact .max_width .social_icons a {
+        margin: 0 1%;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .gallery .services_col h4 {
+        font-size: 16px;
+    }
+
+    .gallery .menu_bar ul li {
+        padding: 3%;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .menu_bar ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu_bar ul li {
+        margin-top: 2%;
+    }
+
+    .contact .social_icons a {
+        padding: 4px 10px;
+    }
+
+    .contact .social_icons a i {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 270px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .about .row .about_col {
+        padding: 2%;
+        width: 90%;
+    }
+
+    .about .row .about_col img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact .max_width .social_icons a i {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .gallery .menu_bar {
+        width: 60%;
+    }
+
+    .contact .col {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .gallery .menu_bar {
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+}
+
+@media (max-width: 710px) {
+    .gallery .menu_bar {
+        width: 80%;
+    }
+
+    .gallery .row {
+        flex-direction: column;
+    }
+
+    .contact .row {
+        flex-direction: column;
+    }
+
+    .contact .row .col {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 880px) {
+
+    .testimonial .row {
+        flex-direction: column;
+    }
+}
